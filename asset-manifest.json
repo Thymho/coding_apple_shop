@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/coding_apple_shop/static/css/main.013be109.css",
+    "main.js": "/coding_apple_shop/static/js/main.1a8309d3.js",
+    "static/js/787.23170c61.chunk.js": "/coding_apple_shop/static/js/787.23170c61.chunk.js",
+    "static/media/bg.png": "/coding_apple_shop/static/media/bg.616f307c169b743ff920.png",
+    "index.html": "/coding_apple_shop/index.html",
+    "main.013be109.css.map": "/coding_apple_shop/static/css/main.013be109.css.map",
+    "main.1a8309d3.js.map": "/coding_apple_shop/static/js/main.1a8309d3.js.map",
+    "787.23170c61.chunk.js.map": "/coding_apple_shop/static/js/787.23170c61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.013be109.css",
+    "static/js/main.1a8309d3.js"
+  ]
+}

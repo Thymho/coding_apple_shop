@@ -16,16 +16,16 @@ function App() {
     <div className='App'>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand onClick={()=>navigate('/')}>ShoesShop</Navbar.Brand>
+          <Navbar.Brand onClick={()=>navigate('/coding_apple_shoping')}>ShoesShop</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link onClick={()=>navigate('/')}>Home</Nav.Link>
-            <Nav.Link onClick={()=>navigate('/cart')}>Cart</Nav.Link>
+            <Nav.Link onClick={()=>navigate('/coding_apple_shoping')}>Home</Nav.Link>
+            <Nav.Link onClick={()=>navigate('/coding_apple_shoping/cart')}>Cart</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
       
       <Routes>
-        <Route path="/" element={
+        <Route path="/coding_apple_shoping" element={
           <>
             <div className='main-bg'></div>
             <div className="container">
@@ -69,8 +69,8 @@ function App() {
             </div>
           </>
         }/>
-        <Route path="/detail/:id" element={ <Detail shoes={shoes}/> }/>
-        <Route path="/cart" element={ <Cart /> }/>
+        <Route path="/coding_apple_shoping/detail/:id" element={ <Detail shoes={shoes}/> }/>
+        <Route path="/coding_apple_shoping/cart" element={ <Cart /> }/>
         <Route path="*" element={<div>잘못된 접속입니다.</div>}/>
       </Routes>
     </div>
